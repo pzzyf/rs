@@ -4,6 +4,7 @@ import { Step2 } from './Step2_RenderCommit'
 import { Step3 } from './Step3_Snapshot'
 import { Step4 } from './Step4_Purity'
 import { Step5 } from './Step5_Integration'
+import { Demo } from './demo'
 
 const steps = [
   { id: 1, title: 'UI = f(state)', C: Step1 },
@@ -11,6 +12,7 @@ const steps = [
   { id: 3, title: 'State 是快照', C: Step3 },
   { id: 4, title: 'Render 纯度', C: Step4 },
   { id: 5, title: '综合练习', C: Step5 },
+  { id: 6, title: 'Demo', C: Demo },
 ]
 
 export default function App() {
